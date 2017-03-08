@@ -52,7 +52,7 @@ public class BasicCalculator implements Calculator {
 
 ## Métodos de Factoría Estáticos
 
-El API calculadora resultó ser muy útil y fácil de usar. Los usuarios sólo tienen que crear una instancia de `BasicCalculator` y ya pueden usar el API. Comienzas a ver código como el que se muestra abajo.
+Supón que el API calculadora resultó ser muy útil y fácil de usar. Los usuarios sólo tienen que crear una instancia de `BasicCalculator` y ya pueden usar el API. Comienzas a ver código como el que se muestra abajo.
 
 ```java
 Calculator calculator = new BasicCalculator();
@@ -111,7 +111,7 @@ public interface Calculator {
 
 ## La Evolución del API con el tiempo
 
-Algunos de los consumidores decidieron o bien, ampliar el API `Calculator` añadiendo métodos como resto `remainder`, o escribit su propia implementación del interfaz `Calculator`. Tras hablar con tus usuarios sacaste la conclusión de que a la mayoría de ellos les gustaría tener un método `remainder` en el interfaz `Calculator`. Parecía un cambio muy simple al API por lo que añadiste un método nuevo.
+Algunos de los consumidores decidieron o bien, ampliar el API `Calculator` añadiendo métodos como `remainder`, o escribit su propia implementación del interfaz `Calculator`. Tras hablar con tus usuarios sacaste la conclusión de que a la mayoría de ellos les gustaría tener un método `remainder` en el interfaz `Calculator`. Parecía un cambio muy simple al API por lo que añadiste un método nuevo.
 
 ```java
 public interface Calculator {
